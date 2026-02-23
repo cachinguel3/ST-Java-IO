@@ -11,7 +11,7 @@ public abstract class FilePersistence {
 
     protected final String currentDir = System.getProperty("user.dir");
 
-    protected final String storedDir = "/managedFiles/IO/";
+    protected String storedDir = "/managedFiles/IO/";
 
     protected final String fileName;
 
